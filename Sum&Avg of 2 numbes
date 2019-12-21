@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Sum_and_Average_of_two_numbers
+{
+    class Program
+    {
+
+        // Recieve two numbers and calculate the Sum and the Average
+        static void Main(string[] args)
+        {
+
+            Console.Write("Please enter first number: ");
+            string xAsString = Console.ReadLine();
+            int x;
+            x = Convert.ToInt32(xAsString);
+
+
+            Console.Write("Please enter second number: ");
+            string yAsString = Console.ReadLine();
+            int y;
+            y = Convert.ToInt32(yAsString);
+
+            int sum = x + y;
+            Console.Write("Sum = ");
+            Console.WriteLine(sum);
+
+            double avg = sum / 2.0;
+            Console.Write("AVERAGE =");
+            Console.WriteLine(avg);
+
+
+
+
+        }
+    }
+}
