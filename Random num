@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Random1
+{
+    class Program
+    {
+        // ENGINE FOR RANDOM NUMBERS, FROM NUMBERS 1-100 the program will present a Random number
+        static void Main(string[] args)
+        {            
+            int number = (new Random()).Next(1, 100);
+
+            Console.WriteLine(number);
+
+            
+        }
+    }
+}
