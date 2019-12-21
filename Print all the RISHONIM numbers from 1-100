@@ -1,0 +1,26 @@
+
+
+
+
+            for (int my_number = 2; my_number <= 100; my_number++)
+            {
+                int m = 2;
+                while (m < my_number && my_number % m != 0)
+                {
+                    m++;
+                }
+                // 1 - first way
+                if (m < my_number)
+                {
+                    continue;
+                }
+                Console.WriteLine($"{my_number} RISHONI");
+
+                // 2 - second way
+                //if (m >= my_number)
+                //{
+                //Console.WriteLine($"{my_number} RISHONI");
+                //}
+
+                //Console.WriteLine(m < my_number ? $"{my_number} LO RISHONI" : $"{my_number} RISHONI");
+            }
