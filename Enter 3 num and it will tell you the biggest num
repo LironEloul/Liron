@@ -1,0 +1,19 @@
+//Enter 3 numbers and it will tell you what is the bigest number
+
+int a, b, c;
+            Console.WriteLine("Enter 3 numbers and i will give you the biggeset (equal)");
+            a = Convert.ToInt32(Console.ReadLine());
+            b = Convert.ToInt32(Console.ReadLine());
+            c = Convert.ToInt32(Console.ReadLine());
+            if (a > b && a > c)
+            {
+                Console.WriteLine(a + " is the biggest!");
+            }
+            else if (b > c)
+            {
+                Console.WriteLine(b + " is the biggest!");
+            }
+            else
+            {
+                Console.WriteLine(c + " is the biggest!");
+            }
