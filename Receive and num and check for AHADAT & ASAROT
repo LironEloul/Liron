@@ -1,0 +1,43 @@
+
+//Recive a number and check if double digit, if not get out. If yes, present the AHADOT and ASAROT and
+//state which one is bigger
+
+
+
+ Console.Write("Pleas enter a number");
+            int a = Convert.ToInt32(Console.ReadLine());
+
+
+
+
+            if (a >= 10 && a <= 99)
+            {
+                int asarot = a / 10;
+                Console.WriteLine($"SIFRAT ASAROT: {asarot}");
+
+                int ahadot = a % 10;
+                Console.WriteLine($"SIFRAT AHADOT: {ahadot}");
+
+                if (asarot > ahadot)
+                {
+                    Console.WriteLine("ASAROT is Bigger");
+                }
+                else
+                {
+                    Console.WriteLine("AHADOT is Bigger");
+                }
+
+                Console.WriteLine(asarot > ahadot ? $"{asarot}" : "AHADOT is Bigger");
+
+                int z;
+                if (a > 10)
+                {
+                    z = a;
+                }
+                else
+                {
+                    z = -5;
+                }
+                z = a > 10 ? a : -5;
+            }
+
