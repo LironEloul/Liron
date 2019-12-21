@@ -1,0 +1,13 @@
+ 
+ \\ Print all the numbers from 1-100
+ 
+ int j = 1;
+            while (j <= 100)
+            {
+                Console.Write(j + " ");
+                j = j + 1;
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Press any key to continue . . .");
+            Console.ReadKey();
