@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Targil_3
+{
+
+    // Recieve numbers until you recieve Negative number and calculate the sum of all the number
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int sum = 0;
+            int x = 0;
+
+            Console.Write("Please enter number: ");
+            string xAsString = Console.ReadLine();
+            x = Convert.ToInt32(xAsString);
+
+
+            while (x >= 0)
+            {
+                sum = sum + x;
+                Console.Write("Please enter number: ");
+                xAsString = Console.ReadLine();
+                x = Convert.ToInt32(xAsString);
+            }
+            Console.Write("Sum is ... ");
+            Console.WriteLine(sum);
+
+            Console.WriteLine();
+            Console.WriteLine("Press any key to continue . . .");
+            Console.ReadKey();
+
+
+
+
+
+
+        }
+    }
+}
