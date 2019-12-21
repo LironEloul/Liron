@@ -1,0 +1,22 @@
+ Console.Write("Please enter first number: ");
+            string xAsString = Console.ReadLine();
+            // int is actually Int32
+            int x;
+            x = Convert.ToInt32(xAsString);
+
+            Console.Write("Please enter second number: ");
+            string yAsString = Console.ReadLine();
+            // int is actually Int32
+            int y;
+            y = Convert.ToInt32(yAsString);
+
+            if (x % y == 0)
+            {
+                // if true -- do this:
+                Console.WriteLine("Mithalek lelo sheerit");
+            }
+            else
+            {
+                // if false -- do this:
+                Console.WriteLine("Mithalek IM sheerit");
+            }
