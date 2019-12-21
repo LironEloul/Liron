@@ -1,0 +1,20 @@
+int sum3 = 0;
+            int x3 = 0;
+
+            Console.Write("Please enter number: ");
+            string x3AsString = Console.ReadLine();
+            x3 = Convert.ToInt32(x3AsString);
+
+            while (x3 >= 0)
+            {
+                sum3 = sum3 + x3;
+                Console.Write("Please enter number: ");
+                x3AsString = Console.ReadLine();
+                x3 = Convert.ToInt32(x3AsString);
+            }
+            Console.Write("Sum is ... ");
+            Console.WriteLine(sum3);
+
+            Console.WriteLine();
+            Console.WriteLine("Press any key to continue . . .");
+            Console.ReadKey();
