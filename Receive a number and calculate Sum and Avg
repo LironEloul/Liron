@@ -1,0 +1,21 @@
+
+
+ Console.Write("Please enter first number: ");
+            string xAsString = Console.ReadLine();
+            int x;
+            x = Convert.ToInt32(xAsString);
+
+            Console.Write("Please enter second number: ");
+            string yAsString = Console.ReadLine();
+            int y;
+            y = Convert.ToInt32(yAsString);
+
+            int sum = x + y;
+            int average = sum / 2;
+
+
+           
+                
+                Console.WriteLine("The sum is " + sum);
+            
+                Console.WriteLine("The average is " + average);
