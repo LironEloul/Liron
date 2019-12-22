@@ -1,0 +1,13 @@
+
+
+
+ int j = 2;
+            while (j <= 100)
+            {
+                Console.Write(j + " ");
+                j = j + 2;
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Press any key to continue . . .");
+            Console.ReadKey();
