@@ -1,0 +1,19 @@
+
+
+
+            Console.Write("Please enter a number : ");
+            string bAsString = Console.ReadLine();
+            int b;
+            b = Convert.ToInt32(bAsString);
+
+
+
+
+            if (b>=10 && b <= 99)
+            {
+                Console.WriteLine(b + " is two digit number");
+            }
+            else
+            {
+
+                Console.WriteLine(b + " a one digit number");
