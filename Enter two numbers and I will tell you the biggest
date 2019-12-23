@@ -1,0 +1,24 @@
+
+
+  Console.Write("Please enter a number : ");
+            string xAsString = Console.ReadLine();
+            int x;
+            x = Convert.ToInt32(xAsString);
+
+
+            Console.Write("Please enter another number : ");
+            string bAsString = Console.ReadLine();
+            int b;
+            b = Convert.ToInt32(bAsString);
+
+
+
+
+            if (x > b)
+            { 
+                Console.WriteLine(x + " is Bigger");
+            }
+            else
+            {
+
+                Console.WriteLine(b + " is Bigger");
