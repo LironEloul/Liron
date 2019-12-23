@@ -14,8 +14,20 @@ namespace Random1
             int number = (new Random()).Next(1, 100);
 
             Console.WriteLine(number);
+            
+            
+            
 
             
         }
     }
 }
+
+
+OR - THIS WAY:
+
+
+            Random seed = new Random();
+            int num1 = seed.Next(1, 80);
+            Console.WriteLine(num1);
+
