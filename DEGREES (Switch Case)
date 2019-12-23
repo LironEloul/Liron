@@ -1,0 +1,31 @@
+
+
+
+            int deg;
+            do
+            {
+                Console.Write("Please enter a number of degrees: ");
+                deg = Convert.ToInt32(Console.ReadLine());
+            }
+
+            while (deg != -5 && deg != 0 && deg != 15 && deg != 40);
+
+            switch (deg)
+            {
+
+                case -5:
+                    Console.WriteLine("Freezing");
+                    break;
+
+                case 0:
+                    Console.WriteLine("Cold");
+                    break;
+
+                case 15:
+                    Console.WriteLine("Nice");
+                    break;
+
+                case -40:
+                    Console.WriteLine("Very Hot");
+                    break;
+            }
