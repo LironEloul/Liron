@@ -1,0 +1,28 @@
+
+
+
+            Console.Write("Please enter a number : ");
+            string xAsString = Console.ReadLine();
+            int x;
+            x = Convert.ToInt32(xAsString);
+
+
+            Console.Write("Please enter a number : ");
+            string bAsString = Console.ReadLine();
+            int b;
+            b = Convert.ToInt32(bAsString);
+
+            int c;
+            c = 0;
+
+
+
+            if (b == 0)
+            { 
+                Console.WriteLine("Cannot be devided in zero");
+            }
+            else
+            {
+                c = x / b;
+                Console.WriteLine(c);
+            }
