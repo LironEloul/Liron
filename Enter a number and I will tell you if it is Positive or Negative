@@ -1,0 +1,17 @@
+
+
+
+
+            Console.Write("Please enter a number and I will tell you if it is Positive or Negative : ");
+            string xAsString = Console.ReadLine();
+            int x;
+            x = Convert.ToInt32(xAsString);
+
+            if  (x >= 0)
+            { 
+                Console.WriteLine(x + " is a Positive number");
+            }
+            else
+            {
+
+                Console.WriteLine(x + " is a Negative number");
