@@ -1,0 +1,19 @@
+
+
+
+            // calculate Atzeret from 1 to 5
+            int atz = 1;
+            int b = 5;
+            
+
+            for (int i = 2; i <= b; i++)
+            {
+                atz = atz * atz;
+
+
+            }
+
+
+            Console.WriteLine(atz);
+        }
+    }
