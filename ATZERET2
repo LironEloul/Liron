@@ -1,0 +1,29 @@
+
+
+
+            // Atzeret
+            int atz = 1;
+            int b = 5;
+            
+
+            for (int i = 1; m <= 10; m++)
+            {
+                Console.WriteLine(m + "i");
+                int atz = 1;
+                int a = m;
+
+                for (int a = 2; a< b; a++)
+                {
+                    atz = atz * a;
+
+
+                }
+
+                Console.WriteLine(atz);
+
+            }
+
+
+            Console.WriteLine(atz);
+        }
+    }
