@@ -1,0 +1,20 @@
+
+
+Console.WriteLine("Please enter the number of student");
+
+            int num = Convert.ToInt32(Console.ReadLine());
+            int class100 = num / 100;
+            num = num % 100;
+            int class30 = num / 30;
+            num = num % 30;
+            int class10 = num / 10;
+            num = num % 10;
+
+            Console.WriteLine($"{class100} classes of 100 students");
+            Console.WriteLine($"{class30} classes of 30 students");
+            Console.WriteLine($"{class10} classes of 10 students");
+
+            if (num != 0)
+            {
+                Console.WriteLine($"{num} students will go home");
+            }
