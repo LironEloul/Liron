@@ -1,0 +1,53 @@
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.Write("Please enter a number : ");
+            string total_secondsAsString = Console.ReadLine();
+            int total_seconds;
+            total_seconds = Convert.ToInt32(total_secondsAsString);
+
+
+
+
+            if (total_seconds < 0)
+            {
+                Console.WriteLine("Error");
+            }
+            else
+            
+            {
+
+                int days = total_seconds / 86400;
+                total_seconds = total_seconds % 86400;
+
+                int hours = total_seconds / 3600;
+                total_seconds = total_seconds % 3600;
+
+                int minutes = total_seconds / 60;
+                total_seconds = total_seconds % 60;
+
+                int totalseconds = total_seconds / 60;
+                total_seconds = total_seconds % 60;
+
+
+            }
+            Console.WriteLine($"Days X {days}\nhours X {hours}\nminutes X {minutes}\nseconds X {seconds}");
+           
+
+        }
+    }
+}
+
+
+
